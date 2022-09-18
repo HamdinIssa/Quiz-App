@@ -1,5 +1,8 @@
+// Packages
 import 'package:flutter/material.dart';
-import 'main.dart';
+
+// Main Screen
+import '../main.dart';
 
 class Question extends StatelessWidget {
   const Question(this.questionText, {Key? key}) : super(key: key);

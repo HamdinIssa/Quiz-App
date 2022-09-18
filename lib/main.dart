@@ -1,7 +1,11 @@
+// Packages
 import 'package:flutter/material.dart';
 
-import 'quiz.dart';
-import 'result.dart';
+// Widgets
+import 'widgets/result.dart';
+
+// Screens
+import 'screens/quiz_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -94,8 +98,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text(
             'Quiz App',
-            style: TextStyle(
-                color:  Colors.white),
+            style: TextStyle(color: Colors.white),
           ),
           actions: [
             Switch(

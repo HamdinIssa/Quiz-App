@@ -1,6 +1,7 @@
+// Packages
 import 'package:flutter/material.dart';
-
-import 'main.dart';
+// Main Screen
+import '../main.dart';
 
 class Result extends StatelessWidget {
   const Result(this.holder, this.resultScore, {Key? key}) : super(key: key);
